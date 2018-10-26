@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/JWT</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="bk0s3wxd5ydvocr@bk0s3wxd5ydvocr-postgresql.services.clever-cloud.com" uuid="7cf11977-e4c5-4336-9196-f5c56a1131b2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://bk0s3wxd5ydvocr-postgresql.services.clever-cloud.com:5432/bk0s3wxd5ydvocr</jdbc-url>
+    </data-source>
   </component>
 </project>
